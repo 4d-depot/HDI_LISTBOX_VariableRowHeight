@@ -1,0 +1,51 @@
+  .okButtons {
+      font-family: Helvetica Neue;
+      font-size: 24px;
+      text-align: center;
+  }
+
+
+
+  listbox {
+      font-family: Arial;
+      font-size: 12px;
+      showHeaders: true;
+      headerHeight: 20px;
+      rowHeightAutoMin: 2em;
+      rowHeightAutoMax: 10em;
+      hideFocusRing: true;
+      enterable: true;
+      hideExtraBlankRows: true;
+
+  }
+
+  header,footer {
+      font-family: Arial;
+      font-size: 14px;
+      fontWeight: bold;
+  }
+
+  column {
+      font-family: Times New Roman;
+      width: 280;
+      minWidth: 200;
+      maxWidth: 500;
+  }
+
+  column[name|="col1"]{
+    text-align: center;
+    font-size: 18px;
+  }
+
+  column[name|="col2"]{
+    text-align: left;
+    font-size: 14px;
+  }
+
+  column[name|="col3"]{
+    text-align: left;
+    font-size: 12px;
+  }
+
+
+

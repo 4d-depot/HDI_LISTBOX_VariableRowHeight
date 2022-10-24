@@ -1,0 +1,1 @@
+OBJECT SET FONT STYLE:C166(*; "col3"; Form:C1466.boldCol3)
