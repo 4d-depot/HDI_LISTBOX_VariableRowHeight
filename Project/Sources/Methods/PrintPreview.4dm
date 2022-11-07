@@ -14,7 +14,7 @@ End if
 $Over:=False:C215
 Repeat 
 	$Over:=Print object:C1095(*; "Listbox")
-	LISTBOX GET PRINT INFORMATION:C1110(*; "Listbox"; lk printing is over:K53:14; $Over)
+	//LISTBOX GET PRINT INFORMATION(*; "Listbox"; lk printing is over; $Over)
 	If (Not:C34($Over))
 		PAGE BREAK:C6
 	End if 
