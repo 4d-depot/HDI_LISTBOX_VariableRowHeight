@@ -26,7 +26,7 @@ Case of
 		// -- LISTBOX INIT
 		
 		If (Shift down:C543)
-			Form:C1466.dataSource:=ds:C1482.Samples.all().toCollection(0; 0; 10)  // collection of 10 items
+			Form:C1466.dataSource:=ds:C1482.Samples.all().toCollection()  //dk with primary key; 0; 100)  // collection of 100 items
 		Else 
 			Form:C1466.dataSource:=ds:C1482.Samples.all()  // full entity selection
 		End if 

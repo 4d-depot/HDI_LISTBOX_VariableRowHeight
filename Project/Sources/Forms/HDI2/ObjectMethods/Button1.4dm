@@ -1,3 +1,11 @@
+// memorize settings of current listbox
+// in order to be re-aplied in the form listbox  (see print preview and form PrintFormES)
+
+
+If (Form:C1466.trace)
+	TRACE:C157
+End if 
+
 var listboxSetting : Object
 
 listboxSetting:=New object:C1471

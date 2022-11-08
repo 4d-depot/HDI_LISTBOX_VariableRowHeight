@@ -147,6 +147,8 @@
 					"verticalLineStroke": "transparent",
 					"dataSource": "Form:C1466.dataSource",
 					"horizontalLineStroke": "transparent",
+					"rowHeightAutoMin": "1em",
+					"rowHeightAutoMax": "1600em",
 					"columns": [
 						{
 							"header": {
@@ -200,7 +202,7 @@
 							"dataSource": "This:C1470.description",
 							"truncateMode": "none",
 							"wordwrap": "normal",
-							"enterable": false
+							"enterable": true
 						}
 					]
 				},
