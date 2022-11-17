@@ -95,7 +95,7 @@
 			"objects": {
 				"Group Box3": {
 					"type": "groupBox",
-					"text": "Listbox settings",
+					"text": "List box settings",
 					"top": 620,
 					"left": 40,
 					"width": 260,
@@ -189,7 +189,7 @@
 						{
 							"header": {
 								"name": "Header2",
-								"text": "Comments"
+								"text": "Description"
 							},
 							"name": "col3",
 							"footer": {
@@ -456,41 +456,25 @@
 				},
 				"Static Picture2": {
 					"type": "picture",
-					"top": 652,
-					"left": 369,
-					"width": 32,
-					"height": 32,
+					"top": 191,
+					"left": 50,
+					"width": 24,
+					"height": 24,
 					"picture": "Images/new.png",
 					"pictureFormat": "scaled",
-					"sizingX": "move",
-					"sizingY": "move"
+					"sizingX": "fixed",
+					"sizingY": "fixed"
 				},
-				"Static Picture3": {
-					"type": "picture",
-					"top": 88,
-					"left": 266,
-					"width": 24,
-					"height": 24,
-					"picture": "Images/new.png",
-					"pictureFormat": "scaled"
-				},
-				"Static Picture4": {
-					"type": "picture",
-					"top": 88,
-					"left": 546,
-					"width": 24,
-					"height": 24,
-					"picture": "Images/new.png",
-					"pictureFormat": "scaled"
-				},
-				"Static Picture5": {
-					"type": "picture",
-					"top": 88,
-					"left": 826,
-					"width": 24,
-					"height": 24,
-					"picture": "Images/new.png",
-					"pictureFormat": "scaled"
+				"Text5": {
+					"type": "text",
+					"text": "Row height can be automatic for this entity selection list box.",
+					"top": 195,
+					"left": 80,
+					"width": 810,
+					"height": 16,
+					"fontWeight": "bold",
+					"stroke": "#0000cd",
+					"fontSize": 14
 				}
 			}
 		}
@@ -499,7 +483,7 @@
 		"version": "1",
 		"kind": "form"
 	},
-	"geometryStamp": 5700,
+	"geometryStamp": 5780,
 	"editor": {
 		"activeView": "View 1",
 		"defaultView": "View 1",

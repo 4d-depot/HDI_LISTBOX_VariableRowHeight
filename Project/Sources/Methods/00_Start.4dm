@@ -20,10 +20,11 @@ Case of
 		$options:=New object:C1471
 		
 		$options.title:=""
-		$options.title:=$options.title+"setup list boxes automatic row height ?"  //+"\n""
+		$options.title:=$options.title+"setup automatic row heights for entity selection"+"\n"
+		$options.title:=$options.title+"and collection list boxes?"
 		
 		$options.blog:="blog.4d.com"
-		$options.info:="List boxes feature"  //ex : "4D View Pro feature"
+		$options.info:="List box feature"  //ex : "4D View Pro feature"
 		
 		$options.minimumVersion:="1980"  // 1940 means 19R8   1708 means 17.8 (do not use !)
 		
