@@ -98,7 +98,7 @@
 					"text": "List box settings",
 					"top": 620,
 					"left": 40,
-					"width": 260,
+					"width": 320,
 					"height": 100,
 					"sizingY": "move"
 				},
@@ -442,7 +442,7 @@
 					"type": "button",
 					"text": "Print (preview)",
 					"top": 660,
-					"left": 420,
+					"left": 450,
 					"width": 180,
 					"height": 20,
 					"events": [
@@ -470,11 +470,31 @@
 					"text": "Row height can be automatic for this entity selection list box.",
 					"top": 195,
 					"left": 80,
-					"width": 810,
+					"width": 780,
 					"height": 16,
 					"fontWeight": "bold",
 					"stroke": "#0000cd",
 					"fontSize": 14
+				},
+				"Text6": {
+					"type": "text",
+					"text": "lines",
+					"top": 650,
+					"left": 290,
+					"width": 60,
+					"height": 16,
+					"textAlign": "left",
+					"sizingY": "move"
+				},
+				"Text7": {
+					"type": "text",
+					"text": "lines",
+					"top": 683,
+					"left": 290,
+					"width": 60,
+					"height": 16,
+					"textAlign": "left",
+					"sizingY": "move"
 				}
 			}
 		}
@@ -483,7 +503,7 @@
 		"version": "1",
 		"kind": "form"
 	},
-	"geometryStamp": 5780,
+	"geometryStamp": 5846,
 	"editor": {
 		"activeView": "View 1",
 		"defaultView": "View 1",
