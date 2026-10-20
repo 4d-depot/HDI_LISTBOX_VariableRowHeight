@@ -1,6 +1,6 @@
 # HDI_LISTBOX_VariableRowHeight
  
-Use drag and drop between and inside listboxes (4D v19 R8) 
+Setup automatic row heights for entity selection and collection list boxes (4D v19 R8) 
 
 Find more information on the [blog post](https://blog.4d.com/automatic-row-heights-in-collection-based-list-boxes/).
 
